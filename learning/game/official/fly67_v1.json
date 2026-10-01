@@ -1,0 +1,119 @@
+{
+ "name": "Муха для 67COIN, версия 1 (закреплена)",
+ "frozen_at": "2026-09-27",
+ "source": "memory/fly_1.npz",
+ "memory_sha256": "1908217a0115fc0a5ba0ed661478bdf5697150905d17d94e402eaaf183e00f23",
+ "cue": {
+  "strength": 0.4,
+  "lc10_hz": 10.0,
+  "cal_hz": 150.0
+ },
+ "decoder": {
+  "threshold": 8.0,
+  "rearm": 0.5,
+  "refractory_ms": 100.0,
+  "tau_ms": 60.0
+ },
+ "training_reward": {
+  "types": [
+   "PAM01"
+  ],
+  "hz": 50.0,
+  "ms": 100.0
+ },
+ "training": "10 сессий по 60 с, награда PAM01 (как оптогенетика) после верного тапа",
+ "honest_claim": "Выучено по Павлову: подсказка = награда. Синапсы KCg-d->MBON27 (γ5d) ослабли, врождённый толчок руля «от предмета» пропал, родной рефлекс LC10 «к предмету» срабатывает надёжнее. Связь «мой тап -> награда» не выучена; правило чередования задаёт подсказка.",
+ "game_rules": "rules67.py VERSION 1",
+ "history": [
+  {
+   "session": 1,
+   "coins_per_min": 464.0,
+   "correct": 0.904,
+   "correct_R": 0.884,
+   "resets": 26,
+   "best_combo": 5,
+   "mean_mult": 1.72
+  },
+  {
+   "session": 2,
+   "coins_per_min": 810.0,
+   "correct": 0.95,
+   "correct_R": 0.939,
+   "resets": 13,
+   "best_combo": 7,
+   "mean_mult": 3.09
+  },
+  {
+   "session": 3,
+   "coins_per_min": 1279.0,
+   "correct": 0.981,
+   "correct_R": 0.97,
+   "resets": 5,
+   "best_combo": 7,
+   "mean_mult": 4.9
+  },
+  {
+   "session": 4,
+   "coins_per_min": 1155.0,
+   "correct": 0.97,
+   "correct_R": 0.97,
+   "resets": 8,
+   "best_combo": 7,
+   "mean_mult": 4.38
+  },
+  {
+   "session": 5,
+   "coins_per_min": 1244.0,
+   "correct": 0.974,
+   "correct_R": 0.963,
+   "resets": 7,
+   "best_combo": 7,
+   "mean_mult": 4.64
+  },
+  {
+   "session": 6,
+   "coins_per_min": 1315.0,
+   "correct": 0.981,
+   "correct_R": 0.97,
+   "resets": 5,
+   "best_combo": 7,
+   "mean_mult": 4.98
+  },
+  {
+   "session": 7,
+   "coins_per_min": 1659.0,
+   "correct": 0.996,
+   "correct_R": 0.993,
+   "resets": 1,
+   "best_combo": 7,
+   "mean_mult": 6.08
+  },
+  {
+   "session": 8,
+   "coins_per_min": 1581.0,
+   "correct": 0.992,
+   "correct_R": 0.985,
+   "resets": 2,
+   "best_combo": 7,
+   "mean_mult": 6.06
+  },
+  {
+   "session": 9,
+   "coins_per_min": 1374.0,
+   "correct": 0.988,
+   "correct_R": 0.976,
+   "resets": 3,
+   "best_combo": 7,
+   "mean_mult": 5.5
+  },
+  {
+   "session": 10,
+   "coins_per_min": 1164.0,
+   "correct": 0.98,
+   "correct_R": 0.962,
+   "resets": 4,
+   "best_combo": 7,
+   "mean_mult": 4.58
+  }
+ ]
+}

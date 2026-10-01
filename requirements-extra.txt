@@ -1,0 +1,2 @@
+# Optional: compare with the original Shiu et al. model on Brian2 (check_brian2.py)
+Brian2==2.10.1

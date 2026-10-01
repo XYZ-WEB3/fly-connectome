@@ -1,0 +1,5 @@
+Starting simulation at t=0. s for a duration of 300. ms
+131.3 ms (43%) simulated in 10s, estimated 13s remaining.
+261.5 ms (87%) simulated in 20s, estimated 3s remaining.
+300. ms (100%) simulated in 22s
+BRIAN2 original: DM1-left 5Hz 300ms -> active neurons: 8162

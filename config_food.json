@@ -1,0 +1,1 @@
+{"vpn_types": ["LC10a", "LC10c-1", "LC10c-2", "LC10d", "LC10e"], "max_rate": 60, "turn_gain": 0.04, "base_drive": 1.0, "walk_gain": 0.0, "mn9_eat_hz": 20}

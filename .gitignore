@@ -1,0 +1,24 @@
+.venv/
+__pycache__/
+*.pyc
+
+# чужие данные — качает setup/get_data.py
+brain_model/
+data/neuron_annotations.tsv
+
+# рабочие файлы
+data/fly_counter.json
+tiktok/_cache/
+tiktok/_scratch/
+tiktok/_render.lock
+tiktok/ui_settings.json
+*.part.mp4
+*.ffmpeg.log
+*.part
+
+# ролики: свои исходники и готовые видео в git не кладём
+готово/
+videos/*
+!videos/.gitkeep
+видео на реакцию/*
+!видео на реакцию/README.txt

@@ -1,0 +1,25 @@
+# Install torch with CUDA first (setup\install.bat does this):
+#   pip install torch==2.10.0 --index-url https://download.pytorch.org/whl/cu128
+# Tested on Windows 11, Python 3.12, RTX 4070 Laptop.
+numpy==2.0.2
+pandas==3.0.6
+pyarrow==25.0.1
+scipy==1.18.1
+flygym==1.2.1
+mujoco==3.2.7
+dm_control==1.0.27
+opencv-python==4.14.0.94
+pillow==12.3.0
+av==18.1.0
+imageio==2.37.4
+imageio-ffmpeg==0.6.0
+matplotlib==3.11.2
+fonttools==4.66.0
+psutil==7.2.2
+tqdm==4.70.1
+# speech recognition for the "meaning" mode (Whisper large-v3, ~3 GB, downloads on first use)
+faster-whisper==1.2.1
+ctranslate2==4.7.1
+onnxruntime==1.24.4
+tokenizers==0.22.2
+huggingface_hub==1.8.0

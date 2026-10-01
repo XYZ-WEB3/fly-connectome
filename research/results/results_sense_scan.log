@@ -1,0 +1,43 @@
+<проект>\brain.py:60: UserWarning: Sparse CSR tensor support is in beta state. If you miss a functionality in the sparse tensor support, please submit a feature request to https://github.com/pytorch/pytorch/issues. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\pytorch\aten\src\ATen\SparseCsrTensorImpl.cpp:51.)
+  self.W = torch.sparse_coo_tensor(torch.stack([post, pre]), w, (n, n)).coalesce().to_sparse_csr().to(self.dev)
+203 типов сенсорных нейронов с левой и правой стороной
+{'type': 'BM_Ant', 'cls': 'mechanosensory', 'activeL': 103, 'activeR': 122, 'afterL': 40, 'afterR': 9, 'dn_asym': 606.6666259765625, 'dn_total': 1306.6666259765625, 'top': 'DNg35_l 63/3; DNg84_r 37/80; DNge054_l 40/0'}
+{'type': 'BM_Fr', 'cls': 'mechanosensory', 'activeL': 40, 'activeR': 71, 'afterL': 0, 'afterR': 0, 'dn_asym': 496.6666259765625, 'dn_total': 550.0, 'top': 'DNg35_l 60/3; DNg84_l 50/0; DNg35_r 3/50'}
+{'type': 'BM_FrOr', 'cls': 'mechanosensory', 'activeL': 32, 'activeR': 25, 'afterL': 3, 'afterR': 0, 'dn_asym': 279.9999694824219, 'dn_total': 279.9999694824219, 'top': 'DNg35_l 63/0; DNg84_l 60/0; DNg35_r 0/50'}
+{'type': 'BM_Hau', 'cls': 'mechanosensory', 'activeL': 98, 'activeR': 16, 'afterL': 14, 'afterR': 0, 'dn_asym': 1050.0, 'dn_total': 1156.6666259765625, 'top': 'DNge067_l 103/0; DNge100_l 93/0; DNg31_r 93/0'}
+{'type': 'BM_InOc', 'cls': 'mechanosensory', 'activeL': 15, 'activeR': 3, 'afterL': 0, 'afterR': 0, 'dn_asym': 30.0, 'dn_total': 30.0, 'top': 'DNg35_l 10/0; DNg84_l 10/0; DNge132_l 10/0'}
+{'type': 'BM_InOm', 'cls': 'mechanosensory', 'activeL': 878, 'activeR': 884, 'afterL': 58, 'afterR': 65, 'dn_asym': 5890.0, 'dn_total': 6430.0, 'top': 'DNg84_l 257/0; DNg84_r 0/240; DNg35_r 0/193'}
+{'type': 'BM_MaPa', 'cls': 'mechanosensory', 'activeL': 86, 'activeR': 19, 'afterL': 27, 'afterR': 0, 'dn_asym': 866.6666259765625, 'dn_total': 866.6666259765625, 'top': 'DNg48_r 87/0; DNg57_l 63/0; DNge104_r 50/0'}
+{'type': 'BM_Oc', 'cls': 'mechanosensory', 'activeL': 15, 'activeR': 14, 'afterL': 3, 'afterR': 0, 'dn_asym': 60.0, 'dn_total': 213.33334350585938, 'top': 'DNg84_l 20/3; DNge122_l 3/17; DNg35_l 33/20'}
+{'type': 'BM_Or', 'cls': 'mechanosensory', 'activeL': 22, 'activeR': 17, 'afterL': 3, 'afterR': 1, 'dn_asym': 323.33331298828125, 'dn_total': 343.33331298828125, 'top': 'DNg35_l 60/0; DNg35_r 0/57; DNg84_l 40/0'}
+{'type': 'BM_Taste', 'cls': 'mechanosensory', 'activeL': 252, 'activeR': 97, 'afterL': 47, 'afterR': 1, 'dn_asym': 3086.66650390625, 'dn_total': 3379.99951171875, 'top': 'DNge036_l 253/0; DNg85_l 187/0; DNg37_r 180/0'}
+{'type': 'BM_Vib', 'cls': 'mechanosensory', 'activeL': 176, 'activeR': 131, 'afterL': 11, 'afterR': 22, 'dn_asym': 1526.66650390625, 'dn_total': 1800.0, 'top': 'DNg85_l 120/3; DNg84_l 113/0; DNg85_r 13/100'}
+{'type': 'BM_Vt_PoOc', 'cls': 'mechanosensory', 'activeL': 29, 'activeR': 79, 'afterL': 0, 'afterR': 6, 'dn_asym': 556.6666870117188, 'dn_total': 643.3333740234375, 'top': 'DNg35_r 0/117; DNg35_l 80/0; DNg84_r 0/67'}
+{'type': 'BM_dOcci', 'cls': 'mechanosensory', 'activeL': 7, 'activeR': 8, 'afterL': 0, 'afterR': 0, 'dn_asym': 40.0, 'dn_total': 40.0, 'top': 'DNg59_l 27/0; DNg59_r 0/13; DNg17_r 0/0'}
+{'type': 'BM_dPoOr', 'cls': 'mechanosensory', 'activeL': 8, 'activeR': 22, 'afterL': 0, 'afterR': 0, 'dn_asym': 159.99998474121094, 'dn_total': 159.99998474121094, 'top': 'DNg35_r 0/47; DNge132_r 0/40; DNp55_r 0/33'}
+{'type': 'BM_vOcci_vPoOr', 'cls': 'mechanosensory', 'activeL': 82, 'activeR': 89, 'afterL': 7, 'afterR': 7, 'dn_asym': 833.3333129882812, 'dn_total': 840.0, 'top': 'DNg48_l 0/93; DNg48_r 90/0; DNge132_l 57/0'}
+{'type': 'CB4146', 'cls': 'unknown_sensory', 'activeL': 1, 'activeR': 1, 'afterL': 0, 'afterR': 0, 'dn_asym': 0.0, 'dn_total': 0.0, 'top': 'DNg17_r 0/0; DNg26_l 0/0; DNg22_r 0/0'}
+{'type': 'CB4147', 'cls': 'unknown_sensory', 'activeL': 13, 'activeR': 21, 'afterL': 0, 'afterR': 0, 'dn_asym': 16.66666603088379, 'dn_total': 16.66666603088379, 'top': 'DNg103_l 0/13; DNg103_r 0/3; DNg37_r 0/0'}
+{'type': 'CB4148', 'cls': 'unknown_sensory', 'activeL': 84, 'activeR': 73, 'afterL': 15, 'afterR': 2, 'dn_asym': 196.6666717529297, 'dn_total': 569.9999389648438, 'top': 'DNge067_r 10/30; DNg31_l 7/23; DNge100_r 7/23'}
+{'type': 'CB4210', 'cls': 'unknown_sensory', 'activeL': 3, 'activeR': 3, 'afterL': 0, 'afterR': 0, 'dn_asym': 16.66666603088379, 'dn_total': 50.0, 'top': 'DNge172_l 10/20; DNge172_r 7/13; DNg17_r 0/0'}
+{'type': 'CB4211', 'cls': 'unknown_sensory', 'activeL': 36, 'activeR': 36, 'afterL': 0, 'afterR': 27, 'dn_asym': 83.33332824707031, 'dn_total': 190.0, 'top': 'DNge036_l 43/13; DNge036_r 10/33; DNge037_l 10/20'}
+{'type': 'CB4246', 'cls': 'mechanosensory', 'activeL': 8, 'activeR': 12, 'afterL': 0, 'afterR': 0, 'dn_asym': 16.666667938232422, 'dn_total': 36.666664123535156, 'top': 'DNg80_l 7/20; DNg80_r 7/3; DNg17_r 0/0'}
+{'type': 'DNx01', 'cls': 'unknown_sensory', 'activeL': 1, 'activeR': 1, 'afterL': 0, 'afterR': 0, 'dn_asym': 0.0, 'dn_total': 0.0, 'top': 'DNg17_r 0/0; DNg26_l 0/0; DNg22_r 0/0'}
+{'type': 'DNx02', 'cls': 'unknown_sensory', 'activeL': 1, 'activeR': 27, 'afterL': 0, 'afterR': 1, 'dn_asym': 43.33333206176758, 'dn_total': 43.33333206176758, 'top': 'DNg58_r 0/23; DNae006_r 0/7; DNp07_l 0/3'}
+{'type': 'ENS1', 'cls': 'unknown_sensory', 'activeL': 54, 'activeR': 31, 'afterL': 9, 'afterR': 2, 'dn_asym': 40.0, 'dn_total': 73.33332824707031, 'top': 'DNg61_l 17/0; DNg61_r 10/0; DNge059_l 13/7'}
+{'type': 'ENS2', 'cls': 'unknown_sensory', 'activeL': 28, 'activeR': 35, 'afterL': 4, 'afterR': 1, 'dn_asym': 0.0, 'dn_total': 0.0, 'top': 'DNg17_r 0/0; DNg26_l 0/0; DNg22_r 0/0'}
+{'type': 'ENS3', 'cls': 'unknown_sensory', 'activeL': 44, 'activeR': 39, 'afterL': 5, 'afterR': 6, 'dn_asym': 0.0, 'dn_total': 0.0, 'top': 'DNg17_r 0/0; DNg26_l 0/0; DNg22_r 0/0'}
+{'type': 'ENS4', 'cls': 'unknown_sensory', 'activeL': 24, 'activeR': 34, 'afterL': 1, 'afterR': 7, 'dn_asym': 156.66665649414062, 'dn_total': 296.6666564941406, 'top': 'DNp65_r 13/80; DNp65_l 57/17; DNpe036_r 33/60'}
+{'type': 'ENS5', 'cls': 'unknown_sensory', 'activeL': 41, 'activeR': 36, 'afterL': 0, 'afterR': 7, 'dn_asym': 3.3333332538604736, 'dn_total': 3.3333332538604736, 'top': 'DNge038_l 0/3; DNg17_r 0/0; DNg26_l 0/0'}
+{'type': 'HBeyelet', 'cls': 'optic_lobes', 'activeL': 4, 'activeR': 0, 'afterL': 0, 'afterR': 0, 'dn_asym': 0.0, 'dn_total': 0.0, 'top': 'DNg17_r 0/0; DNg26_l 0/0; DNg22_r 0/0'}
+{'type': 'HRN_VP1d', 'cls': 'hygrosensory', 'activeL': 10146, 'activeR': 10096, 'afterL': 9793, 'afterR': 9805, 'dn_asym': 676.6666259765625, 'dn_total': 15296.666015625, 'top': 'DNb05_l 313/290; DNp31_l 107/90; DNde005_r 17/3'}
+{'type': 'HRN_VP1l', 'cls': 'hygrosensory', 'activeL': 10076, 'activeR': 10096, 'afterL': 9846, 'afterR': 9824, 'dn_asym': 609.9999389648438, 'dn_total': 14309.9990234375, 'top': 'DNb05_l 290/273; DNge037_l 147/130; DNp31_r 123/110'}
+{'type': 'HRN_VP4', 'cls': 'hygrosensory', 'activeL': 10140, 'activeR': 10134, 'afterL': 9871, 'afterR': 9833, 'dn_asym': 663.3333129882812, 'dn_total': 14876.666015625, 'top': 'DNp31_l 120/90; DNb05_l 303/287; DNb05_r 270/257'}
+{'type': 'HRN_VP5', 'cls': 'hygrosensory', 'activeL': 10175, 'activeR': 10093, 'afterL': 9876, 'afterR': 9812, 'dn_asym': 786.6666259765625, 'dn_total': 14493.3330078125, 'top': 'DNb05_r 250/290; DNp31_r 103/123; DNp12_r 90/110'}
+{'type': 'JO-A1', 'cls': 'mechanosensory', 'activeL': 21, 'activeR': 12, 'afterL': 0, 'afterR': 0, 'dn_asym': 20.0, 'dn_total': 20.0, 'top': 'DNg29_l 7/0; DNg84_l 7/0; DNg15_r 7/0'}
+{'type': 'JO-A2', 'cls': 'mechanosensory', 'activeL': 16, 'activeR': 46, 'afterL': 0, 'afterR': 0, 'dn_asym': 70.0, 'dn_total': 70.0, 'top': 'DNg74_a_l 0/13; DNg29_r 0/13; DNp35_r 0/13'}
+{'type': 'JO-A3', 'cls': 'mechanosensory', 'activeL': 3, 'activeR': 3, 'afterL': 0, 'afterR': 0, 'dn_asym': 0.0, 'dn_total': 0.0, 'top': 'DNg17_r 0/0; DNg26_l 0/0; DNg22_r 0/0'}
+{'type': 'JO-A4', 'cls': 'mechanosensory', 'activeL': 1, 'activeR': 1, 'afterL': 0, 'afterR': 0, 'dn_asym': 0.0, 'dn_total': 0.0, 'top': 'DNg17_r 0/0; DNg26_l 0/0; DNg22_r 0/0'}
+{'type': 'JO-A5', 'cls': 'mechanosensory', 'activeL': 17, 'activeR': 28, 'afterL': 0, 'afterR': 2, 'dn_asym': 113.33332824707031, 'dn_total': 113.33332824707031, 'top': 'DNg24_r 0/50; DNp01_r 0/37; DNp02_r 0/23'}
+{'type': 'JO-B1_a', 'cls': 'mechanosensory', 'activeL': 78, 'activeR': 30, 'afterL': 0, 'afterR': 0, 'dn_asym': 13.333333015441895, 'dn_total': 13.333333015441895, 'top': 'DNp01_r 0/13; DNg17_r 0/0; DNg26_l 0/0'}
+{'type': 'JO-B1_b', 'cls': 'mechanosensory', 'activeL': 14, 'activeR': 23, 'afterL': 0, 'afterR': 2, 'dn_asym': 16.66666603088379, 'dn_total': 16.66666603088379, 'top': 'DNge145_r 0/10; DNge113_r 0/7; DNg17_r 0/0'}

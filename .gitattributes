@@ -1,0 +1,8 @@
+* text=auto
+*.bat text eol=crlf
+*.py text eol=lf
+*.md text eol=lf
+*.png binary
+*.npz binary
+*.npy binary
+*.mp4 binary
